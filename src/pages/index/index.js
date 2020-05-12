@@ -39,7 +39,7 @@ const PickerViewDemo = () => {
             >
                 <PickerViewColumn>
                     {data[0].map((it) => (
-                        <View key={it.value} style={{ height: '68rpX', lineHeight: '68rpx' }}>{it.label}</View>
+                        <View key={it.value} style={{ height: '68rpx', lineHeight: '68rpx' }}>{it.label}</View>
                     ))}
                 </PickerViewColumn>
                 <PickerViewColumn>
